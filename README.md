@@ -3,6 +3,11 @@ Big-Data-Systems-Assignment-1
 
 Processing Storm data from SEVIR dataset in Google Big Query and visualizing insights from it using Google Data Studio. Used csv files as the data source for this project.
 
+Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
+
+Report link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
+
+
 Project Organization
 ------------
 
@@ -56,7 +61,9 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
-Report source link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
+--------
+
+
 
 # Part I: 
 Analysis of CATALOG.csv (the metadata file for SEVIR dataset) and Storm Events datasets for the years 2018 and 2019. 
@@ -108,7 +115,6 @@ FROM `assignment-1-340501.storm_union.storm_details_all` as E LEFT JOIN `assignm
 6. The style tab allows formatting of the charts and their properties.
 
 ## Dashboard
-Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
 
 SEVIR and Storm-Event datasets analysis answers the following queries for the years 2018 and 2019.
 1. Number of unique storm events (event_id) by state using a Geo-chart.
@@ -128,26 +134,6 @@ ORDER BY MAGNITUDE DESC
 6. Total number of distinct storm events by state and season.
 7. Total property damage (in Dollars) by state
 8. Total crop damage (in Dollars) by state
-
-
-Fig. 1: Dashboard page # 1
-
-![DashBoard_1](https://https://github.com/krishna-aditi/Big-Data-Systems-Assignment-1/tree/main/reports/DashBoard_1.png)
-
-
-
-
-Fig. 2: Dashboard page # 2
-
-![Dashboard_2](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashboard_2.png)
-
-
-
-
-Fig. 3: Dashboard page # 3
-
-![Dashboard](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashbooard_3.png)
-
 
 ## Part II: 
 Storm EVent ImagRy (SEVIR) dataset for EventID: 835047 contains images of storm events captured by satellite and radar. SEVIR is a collection of thousands of "storm events", which are 4-hour sequences of weather recorded by five separate sensors. The dataset provides five sensing modalities. 
