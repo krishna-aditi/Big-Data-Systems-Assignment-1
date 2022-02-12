@@ -56,6 +56,8 @@ Project Organization
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
 
+--------
+
 Report source link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
 
 # Part I: 
@@ -129,24 +131,6 @@ ORDER BY MAGNITUDE DESC
 7. Total property damage (in Dollars) by state
 8. Total crop damage (in Dollars) by state
 
-
-Fig. 1: Dashboard page # 1
-
-![DashBoard_1](https://https://github.com/krishna-aditi/Big-Data-Systems-Assignment-1/tree/main/reports/DashBoard_1.png)
-
-
-
-
-Fig. 2: Dashboard page # 2
-
-![Dashboard_2](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashboard_2.png)
-
-
-
-
-Fig. 3: Dashboard page # 3
-
-![Dashboard](https://github.com/Abhishek18101996/BigQueryAndDataStudio/blob/main/Dashbooard_3.png)
 
 
 ## Part II: 
