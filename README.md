@@ -3,6 +3,11 @@ Big-Data-Systems-Assignment-1
 
 Processing Storm data from SEVIR dataset in Google Big Query and visualizing insights from it using Google Data Studio. Used csv files as the data source for this project.
 
+
+Report source link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
+
+Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
+
 Project Organization
 ------------
 
@@ -58,8 +63,6 @@ Project Organization
 
 --------
 
-Report source link: https://docs.google.com/document/d/15agB-fbBIva-FM_bUXEggcz9bDuFSzUiMBhUJdudBxQ/edit?usp=sharing
-
 # Part I: 
 Analysis of CATALOG.csv (the metadata file for SEVIR dataset) and Storm Events datasets for the years 2018 and 2019. 
 ## Steps for analyzing SEVIR metadata in Big Query and Data Studio
@@ -110,7 +113,6 @@ FROM `assignment-1-340501.storm_union.storm_details_all` as E LEFT JOIN `assignm
 6. The style tab allows formatting of the charts and their properties.
 
 ## Dashboard
-Dashboard Link : https://datastudio.google.com/s/iR5pu5rj5qo
 
 SEVIR and Storm-Event datasets analysis answers the following queries for the years 2018 and 2019.
 1. Number of unique storm events (event_id) by state using a Geo-chart.
